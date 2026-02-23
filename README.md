@@ -2,6 +2,9 @@
 
 Taller #1 de JavaScript sobre temas como Tipos de datos, variables, Manipulación de Arrays, POO, etc.
 
+El punto1a nos permite identificar los tipos de datos primivitos en el lenguaje, creando asi una funcion llamada analizarTipo encapsulando una variable valor con su respectivo const tipo y verificar si es nulo o no. 
+Ademas, se verifico con los valores de la primera parte y asi en los condicionales la descripcion sea el mismo resultado. 
+
 El punto1b fue solucionado a partir del estudio de la
 coerción de tipo que aplica JavaScript de forma implícita ya que es un lenguaje dinamicamente tipado y como funcionan los operadores de igualdad flexible e igualdad estricta.
 La coerción implicita de JavaScript convierte los tipos de datos automáticamente dependiendo de que operador se este utilizando.
