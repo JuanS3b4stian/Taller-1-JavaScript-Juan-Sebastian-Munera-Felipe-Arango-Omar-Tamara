@@ -20,7 +20,18 @@ console.table(resultado);
 const resultado2 = productos.map(productos => {
     return {
         nombre: productos.nombre,
-        precio: productos.precio*0.15
+        precio: productos.precio
     }
 })
 console.table(resultado2);
+
+// Map Descuento
+const resultado3 = productos.map(productos => {
+    return {
+        nombre: productos.nombre,
+        precio: productos.precio*0.15
+    }
+})
+console.table(resultado3);
+
+// Reduce 
