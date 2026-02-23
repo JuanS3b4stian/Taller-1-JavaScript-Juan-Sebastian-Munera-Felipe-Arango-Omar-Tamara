@@ -13,3 +13,5 @@ sin aplicar coerción es decir que compara el valor y su
 tipo de dato.
 
 Fuente: https://www.freecodecamp.org/news/coercion-and-type-conversion-in-javascript/
+---------- Punto2A Juan Sebastián Múnera Bedoya ----------
+Para el correcto desarrollo de este punto, se usaron las prácticas, recomendaciones y temas vistos en clases de lo que se lleva del semestre y también del curso de Fundamentos de JavaScript de la plataforma Platzi.
