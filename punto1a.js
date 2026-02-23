@@ -10,8 +10,8 @@ const grande = 123n; // bigint
 const simbolo = Symbol('id'); // Symbol
 
 console.log(typeof grande); // bignint
-// Funcion analizarTipo 
 
+// Funcion analizarTipo 
 function analizarTipo(valor) {
     const tipo = typeof valor;
     const esNulo = valor === null;
