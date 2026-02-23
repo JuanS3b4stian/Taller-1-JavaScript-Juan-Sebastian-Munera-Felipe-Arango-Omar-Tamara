@@ -28,7 +28,7 @@ function analizarTipo(valor) {
         descripcion = 'Valor booleano';
     } else if (tipo === 'undefined') {
         descripcion = 'Valor no definido';
-    } else if (tipo === 'biginit') {
+    } else if (tipo === 'bigint') {
         descripcion = 'biginit';
     }
 
