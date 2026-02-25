@@ -21,8 +21,8 @@
 
 */
 
-class Estudiante {
-    constructor(nombre, apellido, codigo, programa, semestre, notas, activo){
+class Estudiante { // Se define la clase Estudiante
+    constructor(nombre, apellido, codigo, programa, semestre, notas, activo){ // El constructor recibe los parametros para inicializar las propiedades del objeto
         this.nombre = nombre;
         this.apellido = apellido;
         this.codigo = codigo;
@@ -32,23 +32,23 @@ class Estudiante {
         this.activo = activo;
     }
 
-    agregarNota(materia, calificacion){
-        this.notas.push({
+    agregarNota(materia, calificacion){ // El metodo agregarNota recibe la materia y calificacion para agregarla al array de notas
+        this.notas.push({ // Metodo push para agregar un nuevo objeto con la materia y calificacion al array de notas
             materia: materia, 
             calificacion: calificacion
         });
         console.log('Nota registrada');
     }
 
-    calcularPromedio(){
-        if (this.notas.length === 0) {
+    calcularPromedio(){ 
+        if (this.notas.length === 0) { // Si el array de notas esta vacio, se muestra un mensaje y se retorna 0 para evitar division por cero
             console.log('No hay notas registradas');
             return 0;
         }
 
         let suma = 0;
-        for(let i = 0; i < this.notas.length; i++){
-            suma += this.notas[i].calificacion;
+        for(let i = 0; i < this.notas.length; i++){ // Se recorre el array de notas para sumar las calificaciones
+            suma += this.notas[i].calificacion; // Se accede a la propiedad calificacion de cada objeto en el array de notas y se suma a la variable suma
         }
         return suma / this.notas.length; 
     }
@@ -63,7 +63,7 @@ class Estudiante {
 
 }
 
-let e1 = new Estudiante(
+let e1 = new Estudiante( // Se crea una instancia de la clase Estudiante con los datos proporcionados
     'Omar',
     'Tamara',
     123,
