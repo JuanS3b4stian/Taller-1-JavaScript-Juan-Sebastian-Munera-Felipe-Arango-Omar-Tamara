@@ -61,6 +61,10 @@ class Estudiante { // Se define la clase Estudiante
         return this.nombre + ' ' + this.apellido;
     }
 
+    toString(){
+        return `Estudiante: ${this.obtenerNombreCompleto()}, Codigo: ${this.codigo}, Programa: ${this.programa}, Semestre: ${this.semestre}, Activo: ${this.activo}, Notas: ${JSON.stringify(this.notas)}`;
+    }
+
 }
 
 let e1 = new Estudiante( // Se crea una instancia de la clase Estudiante con los datos proporcionados

@@ -58,7 +58,7 @@ Fuente: https://www.freecodecamp.org/news/the-javascript-array-handbook/
 
 ---------- Felipe Arango Espinosa ----------
 
-Los metodos filter() y map() nos sirve para manipular un arreglo de productos sin modificar el original. El metodo filter() se usa para crear un nuevo arreglo que contiene unicamente los productos cuyo precio sea mayor o igual a 700 y que pertenezcan a la categoria 'celulares'. Por otro lado, el metodo map() se utiliza para transformar los elementos del arreglo, generando nuevos que cumplan con las condiciones requeridas. 
+Los metodos filter() y map() nos sirve para manipular un arreglo de productos sin modificar el original. El metodo filter() se usa para crear un nuevo arreglo que contiene unicamente los productos cuyo precio sea mayor o igual a 700 y que pertenezcan a la categoria 'celulares'. Por otro lado, el metodo map() se utiliza para transformar los elementos del arreglo, generando nuevos que cumplan con las condiciones requeridas.
 
 Fuente: https://www.freecodecamp.org/espanol/news/tutorial-de-arrayfilter-de-javascript-como-iterar-a-traves-de-los-elementos-en-un-arreglo/
 
@@ -79,9 +79,18 @@ Fuente: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global
 Información de .table() para organizar datos:
 Fuente: https://developer.mozilla.org/en-US/docs/Web/API/console/table_static
 
----------- Punto 4 Felipe Arango Espinosa && Omar Yesith Tamara Pallares  ----------
+---------- Punto 4 Felipe Arango Espinosa && Omar Yesith Tamara Pallares ----------
 
 ---------- Felipe Arango Espinosa ----------
-En la 4 punto, parte A. Se utiliza programacion orientada a objetos (POO), nos permite modelar informacion mediante clases y objetos. En este caso tenemos la clase Estudiante, que representa a un estudiante y sus caracteristicas y los comportamientos son los metodos. 
+En la 4 punto, parte A. Se utiliza programacion orientada a objetos (POO), nos permite modelar informacion mediante clases y objetos. En este caso tenemos la clase Estudiante, que representa a un estudiante y sus caracteristicas y los comportamientos son los metodos.
 
 Fuente: https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/
+
+---------- Omar Yesith Tamara ----------
+El ejercicio se resolvio creando un metodo constructor llamado Curso donde se definieron las propiedades nombre codigo creditos y un arreglo inscritos para guardar los estudiantes. Los metodos se agregaron con prototype uno para inscribir estudiantes usando .push() otro para obtener el listado recorriendo el arreglo con un for y concatenando nombre y apellido otro para calcular el promedio sumando las notas y dividiendolas entre la cantidad de inscritos usando .length y otro para obtener el estudiante con la nota mas alta comparando dentro de un ciclo. Luego se hizo un ejemplo creando el curso con new inscribiendo estudiantes y mostrando resultados con console.log() Tambien se usaron Object.keys() Object.values() y Object.entries() para mostrar claves valores y pares clave valor de un objeto y finalmente se demostro la diferencia entre copiar por referencia donde ambas variables apuntan al mismo objeto y copiar por valor usando Object.assign() y el operador spread ... donde se crea una copia independiente que no afecta al original.
+
+Fuentes: https://www.freecodecamp.org/news/clone-an-object-in-javascript
+https://www.freecodecamp.org/news/javascript-assigning-values-vs-assigning-references
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object./entries
