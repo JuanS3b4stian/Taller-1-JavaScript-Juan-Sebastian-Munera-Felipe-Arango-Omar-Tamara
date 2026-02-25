@@ -52,3 +52,22 @@ Para calcular lo solicitado se utilizó un ciclo for, ya que no se permitía usa
 El total de productos se obtuvo usando la propiedad .length, La suma de los precios se obtubo sumando los valores de los precios de cada producto en cada iteracion, y la cantidad de productos disponibles se obtuvo utilizando un if que verificaba si la propiedad disponible era verdadera y si lo era incrementaba el contador.
 
 Fuente: https://www.freecodecamp.org/news/the-javascript-array-handbook/
+
+---------- Punto3B Juan Sebastián Múnera Bedoya && Felipe Arango Espinosa ----------
+
+---------- Felipe Arango ----------
+
+---------- Juan Sebastián Múnera ----------
+
+- Método sort() --> Hubieron algunas complicaciones para sortear el array de menor a mayor.
+  Los retornos de -1 o 1 en las condiciones impuestas, son porque JavaScript toma como señal estos números, cuando
+  entiende que es negativo va antes, cuando es positivo, va después.
+
+El resto de los métodos fueron más sencillos de implementar correctamente, así que no ellos no hay observaciones.
+
+Información para los métodos nativos y su sintaxis:
+Fuente: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+(Desplegable Instance Methods)
+
+Información de .table() para organizar datos:
+Fuente: https://developer.mozilla.org/en-US/docs/Web/API/console/table_static
