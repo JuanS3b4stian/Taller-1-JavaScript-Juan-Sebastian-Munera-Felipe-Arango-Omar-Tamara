@@ -2,8 +2,9 @@
 
 Taller #1 de JavaScript sobre temas como Tipos de datos, variables, Manipulación de Arrays, POO, etc.
 
-El punto1a nos permite identificar los tipos de datos primivitos en el lenguaje, creando asi una funcion llamada analizarTipo encapsulando una variable valor con su respectivo const tipo y verificar si es nulo o no.
-Ademas, se verifico con los valores de la primera parte y asi en los condicionales la descripcion sea el mismo resultado.
+---------- Punto1A Felipe Arango Espinosa ----------
+
+El punto1a nos permite identificar los tipos de datos primivitos en el lenguaje, creando asi una funcion llamada analizarTipo encapsulando una variable valor con su respectivo const tipo y verificar si es nulo o no.Ademas, se verifico con los valores de la primera parte y asi en los condicionales la descripcion sea el mismo resultado.
 
 El punto1b fue solucionado a partir del estudio de la
 coerción de tipo que aplica JavaScript de forma implícita ya que es un lenguaje dinamicamente tipado y como funcionan los operadores de igualdad flexible e igualdad estricta.
@@ -55,7 +56,13 @@ Fuente: https://www.freecodecamp.org/news/the-javascript-array-handbook/
 
 ---------- Punto3B Juan Sebastián Múnera Bedoya && Felipe Arango Espinosa ----------
 
----------- Felipe Arango ----------
+---------- Felipe Arango Espinosa ----------
+
+Los metodos filter() y map() nos sirve para manipular un arreglo de productos sin modificar el original. El metodo filter() se usa para crear un nuevo arreglo que contiene unicamente los productos cuyo precio sea mayor o igual a 700 y que pertenezcan a la categoria 'celulares'. Por otro lado, el metodo map() se utiliza para transformar los elementos del arreglo, generando nuevos que cumplan con las condiciones requeridas. 
+
+Fuente: https://www.freecodecamp.org/espanol/news/tutorial-de-arrayfilter-de-javascript-como-iterar-a-traves-de-los-elementos-en-un-arreglo/
+
+Fuente: https://www.freecodecamp.org/espanol/news/javascript-map-como-utilizar-la-funcion-js-map-metodo-de-arreglo/
 
 ---------- Juan Sebastián Múnera ----------
 
@@ -71,3 +78,10 @@ Fuente: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global
 
 Información de .table() para organizar datos:
 Fuente: https://developer.mozilla.org/en-US/docs/Web/API/console/table_static
+
+---------- Punto 4 Felipe Arango Espinosa && Omar Yesith Tamara Pallares  ----------
+
+---------- Felipe Arango Espinosa ----------
+En la 4 punto, parte A. Se utiliza programacion orientada a objetos (POO), nos permite modelar informacion mediante clases y objetos. En este caso tenemos la clase Estudiante, que representa a un estudiante y sus caracteristicas y los comportamientos son los metodos. 
+
+Fuente: https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/
